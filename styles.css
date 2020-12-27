@@ -1,13 +1,21 @@
 :root{
     --basecolor: #2E2E2E;
 }
-body{background-color: royalblue;}
+@font-face {
+    font-family: KaushanScript;
+    src: url('KaushanScript-Regular.ttf');
+}
+html, body{height:95%}
+body{background-color: white;
+    font-family: KaushanScript;
+}
 .navigation ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: var(--basecolor);
+    border-radius: 5px;
 }
 .navigation li{float: left; border-right: 1px solid #bbb;}
 .navigation li:last-child{border-right: none; float: right;}
@@ -39,10 +47,16 @@ body{background-color: royalblue;}
 .dropdown:hover .dropdown-content{display:block;}
 .active{background-color: #9D6FD4;}
 .wholecontain{
-    max-width: 1100px;
+    height:100%;
+    max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
-    background-color: pink;
+    background-color: black;
     border-radius: 20px;
     padding: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+.titling{
+    text-align: center;
+    color:white;
 }
