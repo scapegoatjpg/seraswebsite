@@ -5,6 +5,10 @@
     font-family: KaushanScript;
     src: url('../KaushanScript-Regular.ttf');
 }
+@font-face {
+    font-family: GreatVibes;
+    src: url('../GreatVibes-Regular.ttf');
+}
 html, body{height:95%}
 body{background-color: white;
     font-family: KaushanScript;
@@ -60,6 +64,7 @@ body{background-color: white;
     text-align: center;
     color:white;
 }
-h2{color:white; font-family: Arial, Helvetica, sans-serif;}
+.appoint{font-family: GreatVibes; font-size: 50px;}
+h2{color:white; font-family: Arial, Helvetica, sans-serif; text-align: center;}
 h2 a{color: #9D6FD4;}
 h2 a:hover{color: #654987}
