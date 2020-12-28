@@ -3,7 +3,7 @@
 }
 @font-face {
     font-family: KaushanScript;
-    src: url('KaushanScript-Regular.ttf');
+    src: url('../KaushanScript-Regular.ttf');
 }
 html, body{height:95%}
 body{background-color: white;
